@@ -1,3 +1,6 @@
+***
+Remember to sort the array if the input array is not already sorted
+***
 class Solution:
     def twoSumLessThanK(self, nums: List[int], k: int) -> int:
         if not nums:
