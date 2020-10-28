@@ -1,3 +1,8 @@
+
+***
+Remember to sort the array if the input array is not already sorted
+***
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         if len(nums) < 3:
