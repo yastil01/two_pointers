@@ -1,3 +1,8 @@
+"""
+simple two pointer
+corner case: ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
+ans: ab12
+"""
 class Solution:
     def compress(self, chars: List[str]) -> int:
         if not chars:
